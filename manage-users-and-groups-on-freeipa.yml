@@ -1,0 +1,17 @@
+---
+- hosts: localhost 
+  gather_facts: true
+  vars:
+    - ipa_host:
+    - ipa_port: 443
+    - ipa_admin_username:
+    - ipa_admin_password:
+    - ipa_root_domain:
+  vars_files:
+    - users.yml
+  pre_tasks:
+
+  tasks:
+  - name: Include Users and Groups provisioning tasks
+    include_role: 
+      name: add-users-and-groups-to-freeipa 

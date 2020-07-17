@@ -1,0 +1,5 @@
+
+- src: https://github.com/cadjai/add-users-and-groups-to-freeipa.git 
+  scm: git
+  name: add-users-and-groups-to-freeipa
+

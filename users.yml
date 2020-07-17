@@ -1,0 +1,25 @@
+users:
+- name: 
+  state: present
+  firstname: 
+  lastname: The
+  email: 
+  pubkey:
+  uid:
+  gid:
+  groups:
+    - 
+    - 
+    - 
+
+- name:  
+  state: present
+  firstname: 
+  lastname: 
+  email: 
+  pubkey:
+  uid:
+  gid:
+  groups:
+    - 
+    - 
